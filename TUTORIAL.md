@@ -52,7 +52,7 @@ If you want to override any of the values in values.yml you can add additonal fi
 interacting with the app
 ------------------------
 
-To interact with the cockaroach management console (port 8080) you should first expose the service with a route. You can either create a route manually or use the `oc expose` command. Navigate to the url once it's available. Also use the opprutunity to review the prometheus metrics endpoint `/_status/vars`
+To interact with the cockaroach management console (port 8080) you should first expose the service with a route. You can either create a route manually or use the `oc expose` command. Navigate to the url once it's available. Also use the opportunity to review the prometheus metrics endpoint `/_status/vars`
 
     oc expose -h
 
